@@ -50,6 +50,10 @@ function layout(title: string, body: string) {
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="${title}" />
   <meta name="twitter:description" content="TypeScript control plane for clause extraction posture, obligation graphs, review blockers, and renewal-safe execution across enterprise agreements. Operator surface in the Kinetic Gain Suite." />
+  <meta property="og:image" content="https://kineticgain.com/site/og-image.jpg?v=2026-08-21" />
+  <meta name="twitter:image" content="https://kineticgain.com/site/twitter-image.jpg?v=2026-08-21" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://kineticgain.com/site/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://clauses.kineticgain.com/#service","name":"Kinetic Gain — TypeScript control plane for clause extraction posture, obligation graphs, review blockers, and renewal-safe execution across enterprise agreements","url":"https://clauses.kineticgain.com/","areaServed":"United States","description":"TypeScript control plane for clause extraction posture, obligation graphs, review blockers, and renewal-safe execution across enterprise agreements. Operator surface in the Kinetic Gain Suite."},{"@type":"WebSite","@id":"https://clauses.kineticgain.com/#website","url":"https://clauses.kineticgain.com/","name":"TypeScript control plane for clause extraction posture, obligation graphs, review blockers, and renewal-safe execution across enterprise agreements","publisher":{"@type":"Organization","name":"Kinetic Gain LLC"}}]}</script>
   <style>${KG_STYLE01_CSS}${KG_COMPAT_CSS}</style>
 </head>
@@ -101,9 +105,18 @@ function layout(title: string, body: string) {
           </div>
         </div>
       </div>
-      <div class="foot-bot">
-        <span>© Kinetic Gain LLC — Boston, MA</span>
-        <span>Style01 · v1.1.0</span>
+      <div class="foot-bot" style="flex-direction:column;align-items:flex-start;gap:10px">
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px">
+          <span style="color:var(--bluegray-bright)">SEND TO:</span>
+          <a href="https://chatgpt.com/?q=Please%20explain%20and%20summarize%20the%20key%20takeaways%20of%20this%20page%3A%20https%3A%2F%2Fclauses.kineticgain.com%2F" target="_blank" rel="noopener" style="color:var(--bluegray-bright);border:1px solid var(--bluegray);border-radius:999px;padding:3px 10px;text-decoration:none">ChatGPT</a>
+          <a href="https://claude.ai/new?q=Please%20explain%20and%20summarize%20the%20key%20takeaways%20of%20this%20page%3A%20https%3A%2F%2Fclauses.kineticgain.com%2F" target="_blank" rel="noopener" style="color:var(--bluegray-bright);border:1px solid var(--bluegray);border-radius:999px;padding:3px 10px;text-decoration:none">Claude</a>
+          <a href="https://www.perplexity.ai/search?q=Please%20explain%20and%20summarize%20the%20key%20takeaways%20of%20this%20page%3A%20https%3A%2F%2Fclauses.kineticgain.com%2F" target="_blank" rel="noopener" style="color:var(--bluegray-bright);border:1px solid var(--bluegray);border-radius:999px;padding:3px 10px;text-decoration:none">Perplexity</a>
+          <a href="https://gemini.google.com/app?text=Please%20explain%20and%20summarize%20the%20key%20takeaways%20of%20this%20page%3A%20https%3A%2F%2Fclauses.kineticgain.com%2F" target="_blank" rel="noopener" style="color:var(--bluegray-bright);border:1px solid var(--bluegray);border-radius:999px;padding:3px 10px;text-decoration:none">Gemini</a>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <span>&copy; Kinetic Gain LLC &mdash; Boston, MA &middot; SIGNED &middot; ED25519</span>
+          <span>Style01 · v1.1.0</span>
+        </div>
       </div>
     </div>
   </footer>
